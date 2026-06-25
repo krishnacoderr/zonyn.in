@@ -23,7 +23,7 @@ const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     imageAccent: "from-[#FF9A00]/25 to-transparent",
     description: "A fast, patient-centric healthcare platform optimized for clinical appointments, modern medical consultations, and seamless patient intake.",
     previewUrl: "https://kiranclinics.in",
-    imageUrl: "https://lh3.googleusercontent.com/d/1bmrorPTVK8w8fBt94X92-Ajog23ZuaDz",
+    imageUrl: "/portfolio-1.jpg",
     tags: ["Healthcare SPA", "Appointment Scheduling", "Vite & React", "Optimized Core Vitals"],
   },
   {
@@ -35,7 +35,7 @@ const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     imageAccent: "from-[#FF9A00]/20 to-transparent",
     description: "Multi-layered luxury glass widgets and calculators engineered for modern wealth assets, resulting in record opt-in lead acquisition.",
     previewUrl: "https://www.fitranger.com/",
-    imageUrl: "https://lh3.googleusercontent.com/d/1H6UYgdBkhNcCN68viV1YCMpWwApFJjf6",
+    imageUrl: "/portfolio-2.jpg",
     tags: ["D3.js Charts", "Postgres", "GSAP Scroll", "Next.js"],
   },
   {
@@ -47,7 +47,7 @@ const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     imageAccent: "from-[#FF9A00]/30 to-transparent",
     description: "Stately typographic layouts paired with ambient breath counters. Optimizing high-density wellness conversions for consumer products.",
     previewUrl: "https://www.chhotabheemcafe.com/",
-    imageUrl: "https://lh3.googleusercontent.com/d/16jt67xosNmkHfSFueqQWWx4OTybN-G66",
+    imageUrl: "/portfolio-3.jpg",
     tags: ["Tailwind v4", "Web Audio API", "Framer", "React 19"],
   },
 ];
