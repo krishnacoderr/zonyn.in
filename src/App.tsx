@@ -323,20 +323,17 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between">
           
           {/* Glowing brand logo */}
-          <a href="#hero" className="flex items-center gap-2 group">
-            <img 
-              src="/logo-icon.png" 
-              alt="Lrrk.ai Logo" 
-              className="w-11 h-11 object-contain rounded-md"
-              referrerPolicy="no-referrer"
-            />
+          <a href="#hero" className="flex items-center gap-2.5 group">
+            <div className="relative w-10 h-10 flex items-center justify-center rounded-xl bg-gradient-to-br from-white/10 to-white/5 border border-white/10 shadow-[0_0_15px_rgba(255,154,0,0.15)] overflow-hidden">
+              <svg className="w-5 h-5 text-[#FF9A00]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+              </svg>
+              <div className="absolute inset-0 bg-[#FF9A00]/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
             <div className="relative flex items-center">
-              <img 
-                src="/logo-text.png" 
-                alt="Lrrk.ai" 
-                className="h-14 object-contain"
-                referrerPolicy="no-referrer"
-              />
+              <span className="font-sans text-xl font-bold tracking-tight text-white">
+                Lrrk<span className="text-[#FF9A00]">.ai</span>
+              </span>
               <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF9A00] group-hover:w-full transition-all duration-300" />
             </div>
           </a>
