@@ -151,7 +151,7 @@ export default function InteractiveBrowser() {
           }}
         >
           <img 
-            src="https://lh3.googleusercontent.com/d/1eSRakO8Ep2GdfUx9AhWhZOcqhXZ-l0c7" 
+            src="/showcase-mockup.png" 
             alt="Showcase Mockup" 
             className="w-full h-full object-cover rounded-xl"
             referrerPolicy="no-referrer"

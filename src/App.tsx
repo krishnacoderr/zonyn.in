@@ -325,14 +325,14 @@ export default function App() {
           {/* Glowing brand logo */}
           <a href="#hero" className="flex items-center gap-2 group">
             <img 
-              src="https://lh3.googleusercontent.com/d/1qA7TWLuLp5KgryjG5YeklCY85cJpMHdq" 
+              src="/logo-icon.png" 
               alt="Lrrk.ai Logo" 
               className="w-11 h-11 object-contain rounded-md"
               referrerPolicy="no-referrer"
             />
             <div className="relative flex items-center">
               <img 
-                src="https://lh3.googleusercontent.com/d/14Esy9PljNx4gUMxpV5uvxNuHsQ-63pqD" 
+                src="/logo-text.png" 
                 alt="Lrrk.ai" 
                 className="h-14 object-contain"
                 referrerPolicy="no-referrer"
