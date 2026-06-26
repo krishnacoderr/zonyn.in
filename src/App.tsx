@@ -323,20 +323,16 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between">
           
           {/* Glowing brand logo */}
-          <a href="#hero" className="flex items-center gap-2 group">
+          <a href="#hero" className="flex items-center gap-3 group">
             <img 
-              src="/logo-icon.png" 
+              src="/images/logo-icon.png" 
               alt="Lrrk.ai Logo" 
-              className="w-11 h-11 object-contain rounded-md"
-              referrerPolicy="no-referrer"
+              className="w-10 h-10 object-cover rounded-full shadow-[0_0_15px_rgba(255,154,0,0.3)] transition-transform duration-300 group-hover:scale-105"
             />
             <div className="relative flex items-center">
-              <img 
-                src="/logo-text.png" 
-                alt="Lrrk.ai" 
-                className="h-14 object-contain"
-                referrerPolicy="no-referrer"
-              />
+              <span className="text-xl font-bold tracking-wider text-white font-sans select-none">
+                Lrrk<span className="text-[#FF9A00] font-extrabold animate-pulse">.ai</span>
+              </span>
               <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FF9A00] group-hover:w-full transition-all duration-300" />
             </div>
           </a>

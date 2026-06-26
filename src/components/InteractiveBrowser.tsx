@@ -151,10 +151,9 @@ export default function InteractiveBrowser() {
           }}
         >
           <img 
-            src="/showcase-mockup.png" 
+            src="/images/showcase-mockup.png" 
             alt="Showcase Mockup" 
             className="w-full h-full object-cover rounded-xl"
-            referrerPolicy="no-referrer"
           />
           {/* Subtle reflection overlay */}
           <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent pointer-events-none rounded-xl" />
